@@ -153,7 +153,7 @@ while (not fileStream) or (frame is not None):
                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
     #cv2.putText(frame, "EAR: {:.2f}".format(ear), (500, 30),
     #            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
-    cv2.putText(frame, "Blinks: {}".format(leftebar), (40, 30),
+    cv2.putText(frame, "Blinks: {}".format(leftebar), (40, 60),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
     #cv2.putText(frame, "MAR: {:.2f}".format(mar), (30, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
     if alert:
